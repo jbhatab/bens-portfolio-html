@@ -1,0 +1,25 @@
+.full-slide {
+  width: 100%;
+  height: 800px;
+  padding: 20px;
+}
+.full-slide.blue {
+  background-color: #4183c4;
+}
+
+#custom-box {
+  padding: 20px;
+  width: 100%;
+  height: 100px;
+  background-color: #e5e5e5;
+  border-radius: 10px;
+  transition: height 0.5s linear;
+}
+#custom-box.grow {
+  height: 400px;
+}
+
+.cool-paragraph {
+  font-size: 30px;
+  color: #4183c4;
+}
